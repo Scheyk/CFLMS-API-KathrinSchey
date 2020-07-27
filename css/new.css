@@ -1,0 +1,175 @@
+/*index 2*/
+.bbc, .cnn {
+  width: 30em;
+}
+
+.serri {
+  width: 30em;
+  margin:  auto;
+  border: 3px solid red;
+  text-align: center;
+  padding: 1%;
+}
+
+
+/* wrapper for whole body*/
+#wrapper {
+  max-width: 50em;
+  width: 100%;
+  margin: auto; }
+
+@media screen and (max-width: 479px) {
+  body {
+    background-color: #DE8637; } }
+/*wrapper end*/
+p {
+  margin: 0em;
+  z-index: 1; }
+
+/*all pictures*/
+img {
+  width: 100%;
+  height: 100%; }
+
+/*pictures end*/
+/*for the navbar in header AND footer*/
+nav {
+  width: 100%; }
+  nav ul {
+    list-style-type: none;
+    background-color: #1A1A1A;
+    font-size: 1.25em;
+    height: 1.875em;
+    margin: 0em; }
+    nav ul li {
+      display: inline; }
+      nav ul li a {
+        text-decoration: none;
+        color: #F3F3F3; }
+
+/*navbar ends*/
+/*header*/
+.header {
+  width: 100%;
+  height: 6.25em;
+  background-color: #5F1A1B;
+  display: flex; }
+  .header .newspaper {
+    width: 23%;
+    height: 2.8125em;
+    margin: auto 0.3125em; }
+  .header .fullstack {
+    width: 60%;
+    height: 5em;
+    margin: 0.625em 0.3125em 0.625em auto; }
+
+@media screen and (max-width: 479px) {
+  .nav {
+    float: left;
+    width: 100%; }
+
+  .fullstack {
+    display: none; } }
+/*header end*/
+/*datum and news-trenner*/
+.time {
+  width: 95%;
+  text-align: right;
+  font-weight: bold;
+  font-size: 0.9375em;
+  margin: auto; }
+
+.news {
+  width: 100%;
+  height: 1.5625em;
+  background-color: #DDDDDD;
+  padding-left: 0.3125em;
+  margin-bottom: 0.3125em;
+  text-align: left; }
+
+/*datum and news-trenner ends*/
+/*first container with flexbox*/
+.container_1 {
+  width: 95%;
+  height: 23.125em;
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between; }
+  .container_1 div.content_1 {
+    width: 80%;
+    height: 23.125em;
+    justify-content: space-around;
+    float: left; }
+    .container_1 div.content_1 div {
+      width: 11.875em;
+      height: 8.125em;
+      margin: auto;
+      float: left; }
+    .container_1 div.content_1 h3 {
+      width: 100%;
+      height: 1.5625em;
+      background-color: #DDDDDD;
+      float: left;
+      font-weight: bold;
+      font-size: 1.25em;
+      padding-left: 0.3125em; }
+    .container_1 div.content_1 div.sidebar_1 {
+      width: 13%;
+      height: 23.125em;
+      margin-left: auto;
+      float: left; }
+
+/*first container ends*/
+/*trenner*/
+div.banner {
+  width: 90%;
+  height: 5em;
+  margin: 3% 5%; }
+
+/*trenner ends*/
+/*begin container 2 with flexbox*/
+div.container_2 {
+  width: 95%;
+  height: 23.125em;
+  margin: auto; }
+  div.container_2 div.content_2 {
+    width: 80%;
+    height: 23.125em;
+    justify-content: space-between;
+    float: left;
+    }
+    div.container_2 div.content_2 div {
+      width: 17.5em;
+      height: 10.625em;
+      margin: 0em;
+      float: left; }
+    div.container_2 div.content_2 div.sidebar_2 {
+      width: 13%;
+      height: 23.125em;
+      float: left;
+      margin-left: auto; }
+
+/*container 2 ends*/
+/*begin footer*/
+div.footer {
+  width: 100%;
+  height: 9.375em;
+  background-color: #1A1A1A;
+  margin-top: 2.5em; }
+  div.footer div {
+    width: 23%;
+    height: 2.8125em;
+    margin: 0em 0.625em 0em 37.5em;
+    float: left; }
+  div.footer div.name {
+    color: #F3F3F3;
+    width: 30%;
+    height: 1.25em;
+    margin-left: 18.75em;
+    margin-top: 1.875em;
+    float: left; }
+
+/*footer ends*/
+
+/*# sourceMappingURL=new.css.map */
